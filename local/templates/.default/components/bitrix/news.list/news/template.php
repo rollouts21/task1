@@ -27,28 +27,6 @@ if (empty($arResult['ITEMS'])): ?>
             $img = $arItem['DETAIL_PICTURE']['SRC'];
         }
         ?>
-
-<!--        <div class="article-item__wrapper" id="--><?php //= $this->GetEditAreaId($arItem['ID']); ?><!--">-->
-<!--            --><?php //if ($img): ?>
-<!--                <a class="article-item__background" href="--><?php //= htmlspecialcharsbx($url) ?><!--">-->
-<!--                    <img src="--><?php //= htmlspecialcharsbx($img) ?><!--" alt="--><?php //= htmlspecialcharsbx($title) ?><!--" loading="lazy">-->
-<!--                </a>-->
-<!--            --><?php //endif; ?>
-<!---->
-<!--            <div class="article-item__content">-->
-<!--                --><?php //if ($date): ?>
-<!--                    <div class="news-card__date">--><?php //= htmlspecialcharsbx($date) ?><!--</div>-->
-<!--                --><?php //endif; ?>
-<!---->
-<!--                <h3 class="news-card__title">-->
-<!--                    <a href="--><?php //= htmlspecialcharsbx($url) ?><!--">--><?php //= htmlspecialcharsbx($title) ?><!--</a>-->
-<!--                </h3>-->
-<!---->
-<!--                --><?php //if ($text): ?>
-<!--                    <p class="news-card__text">--><?php //= htmlspecialcharsbx($text) ?><!--</p>-->
-<!--                --><?php //endif; ?>
-<!--            </div>-->
-<!--        </div>-->
         <div class="article-list">
             <a class="article-item article-list__item" href="<?= htmlspecialcharsbx($url) ?>"
                                      data-anim="anim-3">
